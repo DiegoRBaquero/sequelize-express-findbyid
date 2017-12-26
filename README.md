@@ -10,7 +10,7 @@ npm install --save sequelize-express-findbyid
 
 ## API
 
-##### `const sef = sequelize-express-findbyid (model[, primaryKey = 'id'])
+##### `const sef = sequelize-express-findbyid (model[, primaryKey = 'id'])`
 
 ## Usage
 
