@@ -1,4 +1,4 @@
-# sequelize-express-findbyid
+# sequelize-express-findbyid [![npm](https://img.shields.io/npm/v/sequelize-express-findbyid.svg?style=flat-square)]() [![npm](https://img.shields.io/npm/dm/sequelize-express-findbyid.svg?style=flat-square)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![npm](https://img.shields.io/npm/l/sequelize-express-findbyid.svg?style=flat-square)](LICENSE)
 Find by id using a sequelize model, returning 404 error if not found
 
 ## Install
@@ -40,6 +40,13 @@ router.get('/:id', async (req, res, next) => {
   res.send(await findById(req.params.id))
 })
 ```
+
+## Related
+
+- [express-route-autoloader](https://github.com/DiegoRBaquero/express-route-autoloader)
+- [express-sequelize-crud-router](https://github.com/DiegoRBaquero/express-sequelize-crud-router)
+- [express-debug-async-wrap](https://github.com/DiegoRBaquero/express-debug-async-wrap)
+
 
 ## License
 MIT Copyright © [Diego Rodríguez Baquero](https://diegorbaquero.com)
