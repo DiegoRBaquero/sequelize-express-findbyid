@@ -1,4 +1,4 @@
-const findById = (model, pk = 'id') => async (id, options = {}) => {
+const findById = (model, pk = 'id') => async (id, options = {where: {}}) => {
     const opts = Object.assign(options.where, {[pk]: id})
     const result = await model.findOne(opts)
     if (result === null) {
