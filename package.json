@@ -1,6 +1,6 @@
 {
   "name": "sequelize-express-findbyid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find by id using a sequelize model, returning 404 error if not found",
   "main": "index.js",
   "scripts": {
